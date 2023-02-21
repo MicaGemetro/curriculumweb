@@ -1,0 +1,204 @@
+
+.texto_1-I:hover{
+	color: #00B6FF;
+}
+
+.texto_1-C:hover {
+	color: #00B6FF;
+}	
+
+.texto_1-I{
+	font-size: 3em;
+	font-family: 'Courgette', cursive;
+	color: white;
+	padding: 10px 110px 5px 485px;
+	margin: 5px 20px;
+	text-align: center;
+	display: inline-block;
+
+}	
+
+.texto_1-C{
+	font-size: 3em;
+	font-family: 'Courgette', cursive;
+	color: white;
+	padding: 10px 200px 5px 100px;
+	margin: 5px 20px;
+	display: inline-block;
+}
+
+.imagen_1{
+	width: 40vw;
+	height: 65vh;
+	padding: 50px 525px;
+}
+
+.texto{
+	font-size: 35px;
+	font-family: 'Courgette', cursive;
+	color: white;
+}
+.negrita1, .negrita2{
+	color: #FF6800;
+}
+
+.negrita1:hover{
+	color: #00CF0D;
+}
+
+.texto_2{
+	font-size: 18px;
+	font-family: 'Courgette', cursive;
+	color: white;
+	background-color: #252B8C;
+	display: block;
+	margin: 0px;
+	border: #252B8C;
+
+}
+
+#texto1{
+	font-size: 2.5em;
+	padding: 20px 20px 0px 20px;
+}
+
+#texto2{
+	font-size: 2.5em;
+	padding: 10px 20px 20px 20px;
+}	
+
+.final {
+	font-size: 10px;
+	background-color: #252B8C;
+	border: 10px outset #B44700;
+	border-radius: 10px;
+}
+
+#datos1{
+	display: none;
+}
+
+#estudios1{
+	display: none;
+}
+
+#otros1{
+	display: none;
+}
+
+#experiencia1{
+	display: none;
+}
+
+#objetivos1{
+	display: none;
+}
+
+.volver{
+	font-size: 30px;
+	color: black;
+}
+.volver:hover{
+	color: #777171
+}
+
+#volver{
+	font-size: 20px;
+}
+
+.titulo{
+	display: inline-block;
+	font-size: 60px;
+	margin: 30px 10px 0px 660px
+}
+
+.imagen{
+	width: 10vw;
+	height: 22vh;
+	border: 2px solid #000000;
+	display: inline-block;
+	margin: 0px 20px 10px 1300px;
+}
+
+.datos, .estudios, .otros, .experiencia, .objetivos{
+	display: inline-block;
+	font-size: 25px;
+	background-color: #5D5D5D;
+	color: white;
+	margin: 10px 10px 10px 700px;
+	border-radius: 10px;
+	text-shadow: 5px 5px 7px black;
+}
+
+.datos-1, .estudios-1, .otros-1, .experiencia-1{
+	display: inline-block;
+	font-size: 2em;
+	margin: 10px 10px 10px 700px;
+}
+
+#datos2{
+	font-size: 18px;
+	margin: 10px;
+}
+
+#estudios2{
+	font-size: 18px;
+	margin: 10px;
+}
+
+#otros2{
+	font-size: 18px;
+	margin: 10px;
+}
+
+#experiencia2{
+	font-size: 18px;
+	margin: 10px;
+}
+
+#objetivos2{
+	font-size: 18px;
+	margin: 10px 10px 10px 40px;
+}
+
+.estudios{
+	margin: 10px 10px 10px 688px;
+}
+
+.otros{
+	margin: 10px 10px 10px 565px;
+}
+
+.experiencia{
+	margin: 10px 10px 10px 764px;
+}
+
+.objetivos{
+	margin: 10px 10px 10px 747px;
+}
+
+.objetivos-1{
+	display: inline-block;
+	font-size: 2em;
+	margin: 10px 10px 10px 246px;
+}
+
+.datos:hover{
+	color: #DB0000
+}
+
+.estudios:hover{
+	color: #DB0000
+}
+
+.otros:hover{
+	color: #DB0000
+}
+
+.experiencia:hover{
+	color: #DB0000
+}
+
+.objetivos:hover{
+	color: #DB0000
+}

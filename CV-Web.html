@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curriculum Web</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link rel="icon" href="icono.ico">
+	<meta name="description" content="Curriculum Vitae Web, realizado para el final del curso 'Primeros pasos del desarrollo frontend' con Ticmas.">
+	<meta name="author" content="Micaela Gemetro">
+	<style type="text/css">
+		body{
+			background-image: url(fondo-cv.jpg); 
+		}
+	</style> 
+</head>
+<body>
+
+	<a href="Principal.html" class="volver"><span id="volver" class="icon icon-undo2"></span> Volver</a>
+
+	<br><br>
+
+	<h1 class="titulo"><u>Curriculum Vitae</u></h1>
+	<img class="imagen" src="foto.jpg">
+
+    <br><br><br><br>
+
+    <button class="datos" id="datos" type="button" onclick="mostrar()"; ><h2>Datos Personales <span id="bajar" class="icon icon-circle-down" ></span></h2></button>
+    <div class="datos-1" id="datos1"><ul>
+		 <li><b>Nombre:</b> Evan</li>
+		 <li><b>Apellido:</b> Anderson</li>
+		 <li><b>Fecha de Nacimiento:</b> 6/2/1969</li>
+		 <li><b>Dirección:</b> 4036 Miller Ave</li>
+		 <li><b>Nacionalidad:</b> Argentina</li>
+		 <li><b>Estado Civil:</b> Soltero</li>
+		 <li><b>Teléfono:</b> (871) 309-6047</li>
+		 <li><b>Correo Electrónico:</b> evan.anderson@example.com</li> </ul>
+		 <button id="datos2" onclick="ocultar()";><b>Ocultar <span id="subir" class="icon icon-circle-up"></span></b></button>
+	</div>	
+	<script src="comportamientos.js"></script>
+
+	<br><br>
+
+	<button class="estudios" id="estudios" type="button" onclick="mostrar2()";><h2>Estudios Cursados <span id="bajar2" class="icon icon-circle-down"></span></h2></button>
+	<div class="estudios-1" id="estudios1"><ul>
+		    <li>Nivel Secundario Completo</li>
+		    <li>Estudios Universitarios Completos <br>(Orientación en Informática)</li></ul>
+	    <button id="estudios2" onclick="ocultar2()";><b>Ocultar <span id="subir2" class="icon icon-circle-up"></span></b></button>
+	</div>   
+	<script src="comportamientos.js"></script> 
+
+	<br><br>
+
+    <button class="otros" id="otros" type="button" onclick="mostrar3()";><h2>Otros Estudios/Cursos realizados <span id="bajar3" class="icon icon-circle-down"></span></h2></button>
+	<div class="otros-1" id="otros1"><ul>
+		<li>Curso de Desarrollo Front-End</li>
+		<li>Curso de Javascript</li></ul>
+		<button id="otros2" onclick="ocultar3()";><b>Ocultar <span id="subir3" class="icon icon-circle-up"></span></b></button>
+	</div>
+	<script src="comportamientos.js"></script>
+	
+	<br><br>	
+
+	<button class="experiencia" id="experiencia" type="button" onclick="mostrar4()";><h2>Experiencia <span id="bajar4" class="icon icon-circle-down"></span></h2></button>
+	<div class="experiencia-1" id="experiencia1"><ul>
+		<li>Desarrollador Web Full-stack</li>
+        <li>Desarrollador Back-End con experiencia</li>
+        <li>Front-End Developer especializado en APIs</li>
+        <li>Desarrollador Wordpress</li>
+        <li>Programador Java con 15 años de experiencia</li></ul>
+        <button id="experiencia2" onclick="ocultar4()";><b>Ocultar <span id="subir4" class="icon icon-circle-up"></span></b></button>
+    </div>
+    <script src="comportamientos.js"></script>
+
+    <br><br>    
+
+	<button class="objetivos" id="objetivos" type="button" onclick="mostrar5()";><h2>Mis Objetivos <span id="bajar5" class="icon icon-circle-down"></span></h2></button>
+	<div class="objetivos-1" id="objetivos1"><ul>
+		*Diseñar aplicaciones informáticas que se ajusten a las necesidades de las organizaciones/clientes <br> particulares. Dirigir y coordinar el desarrollo de aplicaciones complejas. Intervenir en todas las <br> fases del ciclo de vida de un producto. Estimar los costes de un proyecto y determinar los tiempos <br> de desarrollo.</ul>
+		<button id="objetivos2" onclick="ocultar5()";><b>Ocultar <span id="subir5" class="icon icon-circle-up"></span></b></button>
+	</div>	
+	<script src="comportamientos.js"></script>
+
+	<br><br> 
+
+
+</body>
+</html>
